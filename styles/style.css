@@ -1,0 +1,149 @@
+/* shared styles */
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+.primary-text{
+    color:#FD6E0A;
+}
+.primary-btn{
+    border-radius: 5px;
+    background: #FD6E0A;
+    color: #ffff;
+    border: none;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 225px;
+}
+.nav-title{
+color:  #181818;
+
+font-size: 45px;
+
+font-weight: 800;
+
+}
+nav>ul{
+    display: flex;
+    align-items: center;
+}
+
+nav li{
+    list-style: none;
+    margin-right: 50px;
+}
+nav li a{
+    text-decoration: none;
+    color: #474747;
+    font-size: 20px;
+}
+.nav-btn{
+    width: 150px;
+    height: 64px;
+    font-weight: 700;
+    font-size: 20px;
+}
+.header{
+    background-color: #FFF8F3;
+    background-image: url("../assets/img/developer.png");
+    background-repeat: no-repeat;
+}
+.banner{
+    display: flex;
+    align-items: center;
+    padding: 45px 35px 35px 250px;
+}
+.banner-text{
+    margin-right:250px;
+}
+.banner .profile-img{
+    width: 584px;
+    height: 676px;
+}
+.greet{
+color:  #474747;
+
+font-size: 45px;
+
+font-weight: 600;
+
+}
+.profile-name{
+color:#181818;
+
+font-size: 85px;
+
+font-weight: 700;
+
+}
+.profile-text{
+color: #757575;
+
+font-size: 18px;
+
+font-weight: 400;
+line-height: 30px; /* 166.667% */
+}
+.banner-btn{
+width: 200px;
+height: 64px;
+font-size: 20px;
+font-weight: 700;
+padding: 19px 17px;
+}
+
+/* About */
+.about-me{
+    margin: 130px 230px;
+    padding: 131px 156px;
+    width: 1140px;
+    height: 550px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    text-align: center;
+}
+
+.about-title{
+color: #181818;
+font-size: 35px;
+font-style: normal;
+font-weight: 700;
+
+}
+.about-info{
+color: #757575;
+
+
+font-size: 18px;
+
+font-weight: 400;
+line-height: 30px; /* 166.667% */
+}
+.personal-info{
+    display: flex;
+    justify-content: center;
+}
+.personal-info .info{
+    margin-right: 50px;
+}
+.personal-info .info p{
+
+color: #757575;
+
+
+font-size: 20px;
+
+font-weight: 400;
+line-height: 30px; /* 150% */
+}
+.personal-info .info h3{
+ color:  #474747;
+
+font-size: 20px;
+
+font-weight: 700;
+line-height: 30px;
+}
